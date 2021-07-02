@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #eeeeee;
+}
+
+.wrapper {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.survey-container {
+  max-width: 800px;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #eeeeee;
+  background: #ffffff;
+}
+
+.mandatory {
+  color: red;
+  margin-left: 2px;
+  font-size: 18px;
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+.field-inner {
+  display: flex;
+}
+
+.custome-width {
+  width: 60%;
+}
+
+.custome-margin {
+  margin-left: 15px;
+}
+
+.custom-overflow {
+  overflow: none;
+}
+
+.custome-text-align {
+  text-align: left;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #c8c8c8;
+}
+
+input[type="email"] {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #c8c8c8;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #c8c8c8;
+}
+
+.star-container {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: orange;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background: #eeeeee;
+}
+
+table td {
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  outline: none;
+  border: 2px solid #9e9b9b;
+  cursor: pointer;
+  color: #444444;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 600px) {
+  .survey-container {
+    margin: 0;
+  }
+  .custome-width {
+    width: 100%;
+  }
+  .custom-overflow {
+    overflow: scroll;
+  }
+}
